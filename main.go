@@ -8,16 +8,16 @@ import (
 
 var (
 	inter int
+	j     string
+	k     string
+	//a     bool
 )
 
 func main() {
 	inter = 67
-	var a bool
-	a = true
-	var j string
-	//var s2 string
+	//a = true
 	j = strconv.Itoa(inter)
-	//j := 40
-	fmt.Printf("%v, %T \n", j, j)
-	fmt.Printf("%v, %T\n", a, a)
+	k = "is the number of my house."
+	fmt.Printf("%v ", j)
+	fmt.Printf("%v\n", k)
 }
