@@ -18,6 +18,8 @@ func main() {
 	//a = true
 	j = strconv.Itoa(inter)
 	k = "is the number of my house."
-	fmt.Printf("%v ", j)
-	fmt.Printf("%v\n", k)
+	b := []byte(j + k)
+	expo := 13e4
+	fmt.Printf("The number of the expo is: %v\n", expo)
+	fmt.Printf("%v, %T\n", b, b)
 }
