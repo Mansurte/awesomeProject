@@ -67,4 +67,5 @@ func main() {
 	//But... be careful with the change in the original array!!!
 	fmt.Printf("The original slice array is now: %v.\nIts length is %v.\n", sliceTest, len(sliceTest))
 	// The last element is still there in its original position!
+	// test!
 }
